@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+/* DESKTOP NAV */
+
+@media only screen and (min-width: 768px) {
+  .mobile-nav-container {
+    display: none;
+  }
+
+  .nav-container {
+    width: 100%;
+    height: 4rem;
+    padding: 0 1rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #020202EE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .nav-ul {
+    height: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  .nav-li {
+    height: 100%;
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+  }
+
+  .link-item{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-li:hover {
+    background-color: #09C1AE;
+  }
+}
+
+/* MOBILE NAV */
+
+@media only screen and (max-width: 768px) {
+  .nav-container {
+    display: none;
+  }
+
+  .mobile-nav-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: fixed;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+  }
+
+  .mobile-ul {
+    margin: 1vh 1vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+  }
+
+  .mobile-nav {
+    width: 3rem;
+    height: 3rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: #09c1ae;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .mobile-item {
+    height: 3rem;
+    width: fit-content;
+    padding: 1rem;
+    color: #fff;
+    background-color: #09c1ae;
+    border-radius: 2rem;
+    list-style: none;
+    cursor: pointer;
+
+    animation-name: mobile-item-animation;
+    animation-duration: 300ms;
+    animation-timing-function: ease;
+  }
+
+  .link-item{
+    height: 100%;
+    width: 100%;
+
+
+  }
+
+  @keyframes mobile-item-animation {
+    0% {
+      transform: scale(0);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+}

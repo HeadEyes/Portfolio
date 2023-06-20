@@ -1,0 +1,42 @@
+.skill-title {
+  color: #fff;
+  padding-bottom: 3rem;
+  text-decoration: underline 5px #09c1ae;
+  text-underline-offset: 8px;
+}
+
+.skill-container {
+  padding: 5vh 10vw;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 3rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.skill-item {
+  width: 100%;
+  padding: 5%;
+  color: #fff;
+  border-radius: 1rem;
+  border: 2px solid #09c1ae;
+  word-break: break-all;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.skill-name {
+  margin: 0;
+  width: 100%;
+  text-align: start;
+}
+
+.skill-img {
+  height: 55px;
+}
