@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d60032d8.css",
-    "main.js": "/Portfolio/static/js/main.b96e8dfe.js",
+    "main.css": "/Portfolio/static/css/main.fd30f97c.css",
+    "main.js": "/Portfolio/static/js/main.5b83ec09.js",
     "static/media/Background.jpg": "/Portfolio/static/media/Background.873677d268db6c85bb77.jpg",
-    "static/media/Yo.jpg": "/Portfolio/static/media/Yo.398dfd1081e1135814da.jpg",
+    "static/media/Yo.jpg": "/Portfolio/static/media/Yo.08d4a51eecbe3bad0a9b.jpg",
+    "static/media/Joshua_Parada_CV.pdf": "/Portfolio/static/media/Joshua_Parada_CV.c947570134934647126b.pdf",
     "static/media/Encriptador.jpg": "/Portfolio/static/media/Encriptador.0fddff8105ef92b1933e.jpg",
     "static/media/react.png": "/Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/Portfolio/static/media/node.952a9ea986dcfa5229ad.png",
@@ -12,11 +13,11 @@
     "static/media/css.png": "/Portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio/index.html",
-    "main.d60032d8.css.map": "/Portfolio/static/css/main.d60032d8.css.map",
-    "main.b96e8dfe.js.map": "/Portfolio/static/js/main.b96e8dfe.js.map"
+    "main.fd30f97c.css.map": "/Portfolio/static/css/main.fd30f97c.css.map",
+    "main.5b83ec09.js.map": "/Portfolio/static/js/main.5b83ec09.js.map"
   },
   "entrypoints": [
-    "static/css/main.d60032d8.css",
-    "static/js/main.b96e8dfe.js"
+    "static/css/main.fd30f97c.css",
+    "static/js/main.5b83ec09.js"
   ]
 }
