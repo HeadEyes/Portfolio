@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Presentacion.css'
 import Photo from '../assets/Yo.jpg'
+import cv from '../assets/Joshua_Parada_CV.pdf'
 import { AiOutlineDownload } from "react-icons/ai";
 
 const Presentacion = () => {
@@ -26,7 +27,7 @@ const Presentacion = () => {
                         Actualmente estoy en busca de una oportunidad laboral en la que poder hacer uso del conocimiento que he adquirido y asi poder seguir
                         creciendo profesionalmente
                     </p>
-                    <a href={""} download="" className='cv-button'>Descargar CV < AiOutlineDownload className='button-icon' /></a>
+                    <a href={cv} download="CV-JoshuaParada" className='cv-button'>Descargar CV < AiOutlineDownload className='button-icon' /></a>
                 </div>
 
                 <div className='img-container'>

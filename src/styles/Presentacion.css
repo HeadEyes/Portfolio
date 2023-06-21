@@ -64,10 +64,14 @@
 
 .img-container {
   align-self: center;
+
 }
+
 .img {
-  height: 15rem;
-  width: 15rem;
+  height: 13rem;
+  width: 13rem;
+  object-fit: cover;
+
   border-radius: 50%;
 }
 
