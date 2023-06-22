@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.fd30f97c.css",
-    "main.js": "/Portfolio/static/js/main.5b83ec09.js",
+    "main.js": "/Portfolio/static/js/main.1152520a.js",
     "static/media/Background.jpg": "/Portfolio/static/media/Background.873677d268db6c85bb77.jpg",
     "static/media/Yo.jpg": "/Portfolio/static/media/Yo.08d4a51eecbe3bad0a9b.jpg",
     "static/media/Joshua_Parada_CV.pdf": "/Portfolio/static/media/Joshua_Parada_CV.c947570134934647126b.pdf",
@@ -14,10 +14,10 @@
     "static/media/javascript.png": "/Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio/index.html",
     "main.fd30f97c.css.map": "/Portfolio/static/css/main.fd30f97c.css.map",
-    "main.5b83ec09.js.map": "/Portfolio/static/js/main.5b83ec09.js.map"
+    "main.1152520a.js.map": "/Portfolio/static/js/main.1152520a.js.map"
   },
   "entrypoints": [
     "static/css/main.fd30f97c.css",
-    "static/js/main.5b83ec09.js"
+    "static/js/main.1152520a.js"
   ]
 }
