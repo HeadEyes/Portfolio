@@ -6,26 +6,17 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 const Presentacion = () => {
 
-    function HandleDownload(downloadLinks) {
-        downloadLinks = document.querySelectorAll("[data-download]");
-        downloadLinks.forEach(button =>{
-            const id = button.dataset.download;
-            const image = document.getElementById(id);
-
-        })
-    }
-
     return (
 
         <div id="about" className='presentation-container'>
 
             <div className='about-container'>
                 <div className='about-info'>
-                    <h1 className='greet'>Conóceme</h1>
+                    <h1 className='greet'>Un poco sobre mí</h1>
                     <p className='about'>
-                        Me llamo <b>Joshua Parada</b>, soy un desarrollador Front-end apasionado por el desarrollo de software y los desafios que este me presenta. <br /> <br />
-                        Actualmente estoy en busca de una oportunidad laboral en la que poder hacer uso del conocimiento que he adquirido y asi poder seguir
-                        creciendo profesionalmente
+                        Me llamo <b>Joshua Parada</b> y soy un desarrollador Front End, tengo conocimientos en desarrollo de software, bases de datos, gestion de proyectos y metodologias agiles.
+                        <br /><br />
+                        Actualmente mi objetivo es encontrar un trabajo en el que poder consolidar mis habilidades y crecer profesionalmente.
                     </p>
                     <a href={cv} download="CV-JoshuaParada" className='cv-button'>Descargar CV < AiOutlineDownload className='button-icon' /></a>
                 </div>
