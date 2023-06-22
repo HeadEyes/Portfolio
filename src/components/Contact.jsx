@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Contact.css'
-import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const Contact = () => {
   return (
@@ -10,12 +10,12 @@ const Contact = () => {
 
       <div className='contact-container'>
 
-        <form method='POST' action="" className='form-container'>
+        <form method='POST'  action="https://getform.io/f/104e8a8c-3809-49ce-ae97-b0e1b028a120" className='form-container'>
           <input className='form-name' type="text" placeholder='Name' name='name' />
           <input className='form-email' type="email" placeholder='Email' name='email' />
           <textarea className='form-message' rows="10" name="message" placeholder='Message'></textarea>
-          <button className='form-button' >Enviame un e-mail</button>
-          <p className='form-text'> O escribeme a  p.aguilera.joshua@gmail.com</p>
+          <button className='form-button' >Enviar mensaje</button>
+          <p className='form-text'> O escribeme a p.aguilera.joshua@gmail.com</p>
         </form>
 
         <div className='contact-list'>
