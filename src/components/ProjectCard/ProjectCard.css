@@ -1,0 +1,36 @@
+.project__item:hover {
+  transform: scale(101%);
+  transition: 0.2s;
+}
+
+.project__item:hover .project-item__info {
+  background-color: var(--primary-200);
+}
+
+.project-item__link {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.project-item__img > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-item__info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  background-color: var(--primary-100);
+  color: var(--text-100);
+}
+
+.project-item__title {
+  font-size: 22px;
+}

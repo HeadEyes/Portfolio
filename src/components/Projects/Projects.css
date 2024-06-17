@@ -1,0 +1,26 @@
+#projects {
+  margin: 10dvh 0;
+  padding: 0 5dvw;
+  width: 100%;
+}
+
+.projects-container{
+    width: 100%;
+    text-align: center;
+    gap: 5dvh;
+}
+
+.projects-container__title{
+    margin-bottom: 5dvh;
+    font-size: 40px;
+    color: var(--text-100);
+}
+
+.projects-list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 500px));
+    grid-auto-rows: auto;
+    gap: 2rem;
+    justify-content: center;
+}
