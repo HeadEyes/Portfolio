@@ -15,7 +15,7 @@ export const Hero = () => {
                     Front End developer
                 </p>
                 <span className='hero-container__button'>
-                    <a target='_blank' href="https://drive.google.com/file/d/1anKUJPa3Ou_O3uYCCje3X_GGuWzj67ot/view">Descargar CV</a>
+                    <a target='_blank' href="https://drive.google.com/file/d/1cCgAkleHnv0dXMg-DUK9zrrJLJStR5LE/view">Descargar CV</a>
                 </span>
             </div>
         </section>

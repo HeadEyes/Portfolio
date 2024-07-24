@@ -40,12 +40,6 @@ export const Contact = () => {
         </form>
 
         <div className='contact-data'>
-          <a href='https://github.com/HeadEyes' target="_blank" className='social-icon'>
-            <GitHubIcon />
-          </a>
-          <a href='https://www.linkedin.com/in/joshua-parada-073a96258/' target="_blank" className='social-icon'>
-            <LinkedInIcon />
-          </a>
           <span>
             <EmailIcon/>
             <p>p.aguilera.joshua@gmail.com</p>
